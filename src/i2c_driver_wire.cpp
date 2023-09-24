@@ -124,7 +124,6 @@ void I2CDriverWire::finish() {
             return;
         }
     }
-    Serial.println("Timed out waiting for transfer to finish.");
 }
 
 void I2CDriverWire::on_receive_wrapper(size_t num_bytes, uint16_t address) {
